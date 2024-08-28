@@ -83,7 +83,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    info@acme.org
+                                    mithleshpatel887766@gmail.com
                                 </div>
                             </div>
                         </div>
@@ -123,8 +123,18 @@ export default function Contact() {
                                     type="tel"
                                     name="tel"
                                     id="tel"
-                                    placeholder="Telephone Number"
+                                    placeholder="Phone Number"
                                     className="w-100 mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
+                                />
+                            </div>
+                            <div className="flex flex-col">
+                                <label for="name" className="hidden">
+                                 Write Message
+                                </label>
+                                <input
+                                    type="message"
+                                    placeholder=" Write Message"
+                                    className="w-100 mt-2 py-10 px-10 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-orange-500 focus:outline-none"
                                 />
                             </div>
 
