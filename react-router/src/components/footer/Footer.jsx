@@ -45,10 +45,15 @@ export default function Footer() {
                                         Github
                                     </a>
                                 </li>
-                                <li>
-                                    <Link to="/" className="hover:underline">
-                                        Discord
-                                    </Link>
+                                <li className="mb-4">
+                                    <a
+                                        href="https://www.linkedin.com/in/mithilesh-patel-03a282184/"
+                                        className="hover:underline"
+                                        target="_blank"
+                                        rel="noreferrer"
+                                    >
+                                       LinkedIn
+                                    </a>
                                 </li>
                             </ul>
                         </div>
